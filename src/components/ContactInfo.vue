@@ -1,5 +1,5 @@
 <template>
-  <section class="contact">
+  <section id="contact" class="contact">
     <h2>Contact Information</h2>
     <p>If you would like to discuss a project or just say hi, reach out via the form below or connect with me on LinkedIn.</p>
     <form @submit.prevent="sendMessage">

@@ -18,6 +18,7 @@ export default {
       projects: [
         { title: 'Project 1', description: 'A brief description of this project.' },
         { title: 'Project 2', description: 'A brief description of this project.' },
+        { title: 'Project 3', description: 'A brief description of this project.' },
       ],
     }
   },
