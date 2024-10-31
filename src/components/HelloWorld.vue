@@ -1,17 +1,21 @@
 <template>
   <div class="horizontal-sections">
+
   <section class="hero">
-    <h1>Hi, I'm <span class="highlight">Joe Muldowney</span></h1><br><br><br>
-    <h1><span style="margin-left: 225px;">a Software Developer</span></h1>
-    
+    <h1>Hi, I'm <span class="highlight">Joe Muldowney</span></h1>
+    <p>a Software Developer</p>    
   </section>
-  <div>
-    <section class="image-container">
-     <img alt="Image Placeholder" src="../assets/portfolio.jpeg" />     
-  </section>
-    <section class="image-decoration">         
-  </section>
+  
+  <div class="image-container">
+    <section class="image-decoration-one">         
+    </section>
+    <section class="image-me">
+    <img alt="Image Placeholder" src="../assets/portfolio.jpeg" />     
+    </section>
+    <section class="image-decoration-two">         
+    </section>
   </div>
+
   </div>
 </template>
 
@@ -23,33 +27,97 @@ export default {
 
 <style scoped>
 .horizontal-sections{
-  display: flex;
+  display: flex; 
+  flex-wrap: wrap;
+
 }
 h1 {
   font-size: 4.0rem; 
   margin-left: 150px;
 }
+
+section p {  
+  font-weight: bold; /* Bold to match <h1> */
+  margin-top: 0.67em; /* Matches typical <h1> top margin */
+  margin-bottom: 0.67em; /* Matches typical <h1> bottom margin */
+  display: block; /* Ensures it's displayed as a block element like <h1> */
+  font-size: 4.0rem; 
+  margin-left:300px;
+}
 .highlight {
  color: #00008B;
 
 }
-.image-container {
- 
+
+.image-container {  
   
-  border-radius: 5px;
+  width: 20%; 
+  margin-left: 12%;  
+  display: flex;
+   position: relative;
+}
+.image-me img {
+  width: 300px;
+  height: 300px; 
+  
+}
+.image-me{ 
+  width: 300px;
+  height: 300px; 
+  margin-top: 30%;
+  z-index: 2;
+}
+.image-decoration-one{
+  position: absolute;
+  width: 300px; 
+  height: 300px; 
+  background-color: #00008B;
+  z-index: 1;
+  margin-left: -35%;
+   margin-top: -10%;
+  
+}
+.image-decoration-two{
+  position: absolute;
+  width: 300px; 
+  height: 300px; 
+  background-color: #00008B;
+  z-index: -1;
+  margin-left: 35%;
+  margin-top: 65%;
 }
 
-.image-container img {
-  width: 250px; /* Added 'px' to specify units */
-  height: 250px; /* Added 'px' to specify units */
-  border-radius: 5px;
+/* Mobile Styles */
+@media (max-width: 480px) {
+  h1 {
+   font-size: 2.0rem; /* Reduce font size */
+   margin: 20px 0;
+  }
+  section p {  
+  font-weight: bold; /* Bold to match <h1> */
+  margin-top: 0.67em; /* Matches typical <h1> top margin */
+  margin-bottom: 0.67em; /* Matches typical <h1> bottom margin */
+  display: block; /* Ensures it's displayed as a block element like <h1> */
+  font-size: 2.0rem; 
+  margin-left:20px;
 }
-.image-decoration{
-  width: 250px; /* Added 'px' to specify units */
-  height: 250px; /* Added 'px' to specify units */
-  background-color: #00008B;
-  margin-left: 50%;
-  margin-top: -50%;
+}
+/* Mobile Styles */
+@media (max-width: 950px) {
+  h1 {
+   font-size: 2.0rem; /* Reduce font size */
+   margin: 20px 0;
+  }
+  section p {  
+  font-weight: bold; /* Bold to match <h1> */
+  margin-top: 0.67em; /* Matches typical <h1> top margin */
+  margin-bottom: 0.67em; /* Matches typical <h1> bottom margin */
+  display: block; /* Ensures it's displayed as a block element like <h1> */
+  font-size: 2.0rem; 
+  margin-left:20px;
+}
+  
+
 }
 
 </style>

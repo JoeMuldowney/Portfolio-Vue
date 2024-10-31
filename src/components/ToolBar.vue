@@ -21,14 +21,14 @@ export default {
 header {
   position: fixed;
   top: 10px;
-  background: rgba(0, 0, 139, 0.8); /* Light blue with transparency */
-  width: 40%;
-  left: 30%;
-  border-radius: 45px;
-  
+  background: rgba(0, 0,51, 0.4); /* Light blue with transparency */
+  width: 50%;
+  left: 50%; /* Position it halfway across the screen */
+  transform: translateX(-50%);
+  border-radius: 30px;  
   color: #fff;
-  padding: 1rem 0;
-  text-align: center;
+  justify-content: center;
+  
 }
 nav ul {  
   list-style: none;
@@ -36,11 +36,28 @@ nav ul {
   justify-content: center;
 }
 nav ul li {
-  margin: 0 1rem;
+  margin: 0 1.5rem;
 }
 nav ul li a {
   color: #fff;
   text-decoration: none;
+}
+
+
+@media (max-width: 950px) {
+header{
+ width: 100%;
+  
+}
+
+nav ul {  
+  font-size: 10px;
+  
+}
+
+
+  
+
 }
 </style>
 
