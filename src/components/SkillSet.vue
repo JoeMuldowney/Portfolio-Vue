@@ -70,7 +70,7 @@ h1{
    font-size: 2.0rem; /* Reduce font size */
    
   }
-
+ 
 }
 /* Mobile Styles */
 @media (max-width: 950px) {
@@ -78,6 +78,7 @@ h1{
    font-size: 2.0rem; /* Reduce font size */
    
   }
+ 
 
   
 

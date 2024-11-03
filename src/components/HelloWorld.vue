@@ -62,7 +62,7 @@ section p {
 @media (max-width: 480px) {
   h1 {
    font-size: 2.0rem; /* Reduce font size */
-   margin: 20px 0;
+   margin: 5px 0;
   }
   section p {  
   font-weight: bold; /* Bold to match <h1> */

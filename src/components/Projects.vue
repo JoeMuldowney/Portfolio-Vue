@@ -41,8 +41,9 @@ export default {
 <style scoped>
 
 h1{
-  font-size: 60px;
-  margin-top: 10%;
+   font-size: 80px;
+  padding: 2rem 1rem;
+  
 }
 .section {
  

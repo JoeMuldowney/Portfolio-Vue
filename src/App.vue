@@ -1,6 +1,7 @@
 <template>
+  <div class="HelloWorld-Section">
   <ToolBar />
-   
+  </div>
   <div class="fade-section">
     <HelloWorld />
   </div>
@@ -67,6 +68,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;  
   color: #2c3e50; 
 }
+.HelloWorld-section {
+  margin-top: 20%; /* Reduce or increase as necessary */
+  padding: 20px; /* Add padding to separate sections */
+}
 
 .fade-section {
   opacity: 0;
@@ -83,20 +88,33 @@ export default {
 
 /* Mobile Styles */
 @media (max-width: 480px) {
+  .HelloWorld-section {
+  margin-top: 5%; /* Reduce or increase as necessary */
+  padding: 25px; /* Add padding to separate sections */
+}
 
 
 .fade-section {
-  margin-top: 60%; /* Reduce or increase as necessary */
-  padding: 20px; /* Add padding to separate sections */
+  margin-top: 70%; /* Reduce or increase as necessary */
+ 
 }
 
 
 }
 /* Mobile Styles */
-@media (max-width: 950px) {
+@media (max-width: 1150px) {
 
+  .HelloWorld-section {
   margin-top: 60%; /* Reduce or increase as necessary */
   padding: 20px; /* Add padding to separate sections */
+}
+
+.fade-section {
+  margin-top: 70%; /* Reduce or increase as necessary */
+ 
+}
+
+ 
 
 }
 
