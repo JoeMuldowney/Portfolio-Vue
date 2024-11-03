@@ -25,11 +25,31 @@ export default {
       message: '',
     }
   },
-  methods: {
-    sendMessage() {
-      alert(`Message sent by ${this.name}`);
-      // Add actual form submission logic here
-      this.name = this.email = this.message = ''; // Reset form
+methods: {
+    async sendMessage() {
+      try {
+        const response = await fetch('http://localhost:8040/sendmail.php', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+          body: new URLSearchParams({
+            name: this.name,
+            email: this.email,
+            message: this.message,
+          }),
+        });
+
+        const result = await response.json();
+        alert(result.message);
+
+        if (result.status === 'success') {
+          this.name = this.email = this.message = ''; // Reset form
+        }
+      } catch (error) {
+        console.error('Error sending message:', error);
+        alert('There was an error sending your message.');
+      }
     }
   },
 }
@@ -37,13 +57,22 @@ export default {
 
 <style scoped>
 .contact{
-  width: 20%;
+  width: 40%;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin: auto; /* Centers horizontally */
+  display: flex; /* Enables flexbox */
+  flex-direction: column; /* Stacks children vertically */
+  justify-content: center; /* Centers vertically */
+  align-items: center; /* Centers items horizontally */
+  min-height: 80vh; /* Full height of viewport */
 }
 form input, form textarea {
   width: 100%;
   padding: 0.5rem;
   margin: 0.5rem 0;
   border: 1px solid #ccc;
+  
 }
 form button {
   background: #333;
@@ -51,4 +80,22 @@ form button {
   padding: 0.5rem 1rem;
   border: none;
 }
+
+@media (max-width: 480px) {
+
+.contact{
+  width: 70%;
+}
+}
+
+@media (max-width: 950px) {
+.contact{
+  width: 90%;
+}
+
+}
+
+
+
+
 </style>

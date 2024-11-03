@@ -1,8 +1,6 @@
 <template>
-  <div class="fixed-section">
-    <ToolBar />
-  </div>
-  
+  <ToolBar />
+   
   <div class="fade-section">
     <HelloWorld />
   </div>
@@ -36,7 +34,8 @@ export default {
     ProjectDemos,
     
     
-  },
+  }
+  ,
   mounted() {
     // Select all elements with the fade-section class
     const sections = document.querySelectorAll('.fade-section');
@@ -52,7 +51,7 @@ export default {
           }
         });
       },
-      { threshold: 0.1 } // Triggers when 10% of the element is in view
+      { threshold: 0.3 } // Triggers when 30% of the element is in view
     );
 
     // Observe each section
@@ -71,15 +70,34 @@ export default {
 
 .fade-section {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-   margin-top: 15%; /* Add margin for spacing between sections */
+  transform: translateY(80px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  margin-top: 15%;
 }
 
 /* Add this class dynamically when the element is in view */
 .fade-section.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Mobile Styles */
+@media (max-width: 480px) {
+
+
+.fade-section {
+  margin-top: 60%; /* Reduce or increase as necessary */
+  padding: 20px; /* Add padding to separate sections */
+}
+
+
+}
+/* Mobile Styles */
+@media (max-width: 950px) {
+
+  margin-top: 60%; /* Reduce or increase as necessary */
+  padding: 20px; /* Add padding to separate sections */
+
 }
 
 

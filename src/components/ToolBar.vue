@@ -1,11 +1,11 @@
 <template>
   <header>
     <nav>      
-      <ul>        
-        <li><a href="#home">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
+      <ul>
+        <li><a href="#home" @click.prevent="scrollToSection('home')">Home</a></li>
+        <li><a href="#projects" @click.prevent="scrollToSection('projects')">Projects</a></li>
+        <li><a href="#skills" @click.prevent="scrollToSection('skills')">Skills</a></li>
+        <li><a href="#contact" @click.prevent="scrollToSection('contact')">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -14,7 +14,21 @@
 <script>
 export default {
   name: 'ToolBar',
-}
+methods: {
+  scrollToSection(section) {
+    const target = document.getElementById(section);
+    if (target) {
+      const offset = window.innerWidth < 480 ? 150: 200;
+      const elementPosition = target.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  }
+}}
 </script>
 
 <style scoped>
@@ -28,6 +42,9 @@ header {
   border-radius: 30px;  
   color: #fff;
   justify-content: center;
+  
+ 
+  
   
 }
 nav ul {  

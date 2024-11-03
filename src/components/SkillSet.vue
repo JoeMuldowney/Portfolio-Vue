@@ -46,8 +46,9 @@ export default {
 
 h1{
   font-size: 80px;
+  padding: 2rem 1rem;
 }
-.section {
+.section {  
   padding: 2rem 1rem;
   text-align: center;
 }
@@ -62,6 +63,24 @@ h1{
 .container img:hover {
   transform: scale(2.2); /* Scale up the image on hover */
   cursor: pointer; /* Optional: Show a pointer cursor on hover */
+}
+
+@media (max-width: 480px) {
+  h1 {
+   font-size: 2.0rem; /* Reduce font size */
+   
+  }
+
+}
+/* Mobile Styles */
+@media (max-width: 950px) {
+  h1 {
+   font-size: 2.0rem; /* Reduce font size */
+   
+  }
+
+  
+
 }
 
 </style>

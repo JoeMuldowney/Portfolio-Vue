@@ -5,9 +5,9 @@
       <div class="project" v-for="(project, index) in projects" :key="index">
         <h3>{{ project.title }}</h3>
         <p>{{ project.description }}</p>
-        <a :href="project.link" target="_blank">View Project</a><br>
-        <a :href="project.repofront" target="_blank">frontend repo</a>
-        <a :href="project.repoback" target="_blank">backend repo</a>
+        <a :href="project.link" target="_blank">View Project</a><br><br>
+        <a :href="project.repofront" target="_blank">Front-End GitHub Repo</a><br><br>
+        <a :href="project.repoback" target="_blank">Back-End GitHub Repo</a>
         
       </div>
     </div>
@@ -41,11 +41,12 @@ export default {
 <style scoped>
 
 h1{
-  font-size: 80px;
-  
+  font-size: 60px;
+  margin-top: 10%;
 }
 .section {
-  padding: 2rem 1rem;
+ 
+ 
   text-align: center;
 }
 .projects-container {
@@ -60,4 +61,24 @@ h1{
   width: 300px;
   text-align: center;
 }
+
+@media (max-width: 480px) {
+  h1 {
+   font-size: 2.0rem; /* Reduce font size */
+   
+  }
+
+}
+/* Mobile Styles */
+@media (max-width: 950px) {
+  h1 {
+   font-size: 2.0rem; /* Reduce font size */
+   
+  }
+
+  
+
+}
+
+
 </style>
