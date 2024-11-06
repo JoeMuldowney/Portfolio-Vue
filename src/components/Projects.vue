@@ -20,16 +20,18 @@ export default {
   data() {
     return {
       projects: [
-        { title: 'Project 1',
-         description: 'A Property Management Application that has an API for adding, deleting, and updating clients and client property.',
+        { title: 'CPS',
+         description: 'A Property Data System that using an API for adding, deleting, and updating clients and properties.',
          link: 'https://csportfoliojm.com/frontend/',
          repofront: 'https://github.com/JoeMuldowney/Property-React-UI',
          repoback: 'https://github.com/JoeMuldowney/Property-Spring-Boot-API',
         },
 
-        { title: 'Project 2', 
+        { title: 'Endless Books', 
           description: 'An ecommerce store utlizing microservices for store, cart, and checkout functionality.',
           link: 'https://csjoeportfolio.com/',
+          repofront: 'https://github.com/JoeMuldowney/Virtual-Library-React-JSX-UI',
+          repoback:  'https://github.com/JoeMuldowney/Virtual-Library-Auth-Profile-API'
          },
         { title: 'Project 3', description: 'A brief description of this project.' },
       ],

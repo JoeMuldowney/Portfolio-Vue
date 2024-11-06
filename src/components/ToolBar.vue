@@ -42,7 +42,7 @@ header {
   border-radius: 30px;  
   color: #fff;
   justify-content: center;
-  
+  z-index: 2;
  
   
   
