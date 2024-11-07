@@ -28,7 +28,7 @@ export default {
 methods: {
     async sendMessage() {
       try {
-        const response = await fetch('http://localhost:8040/sendmail.php', {
+        const response = await fetch('http://3.17.51.203:8008/sendmail.php', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
