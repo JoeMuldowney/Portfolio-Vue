@@ -1,9 +1,13 @@
 <template>
   <div class="HelloWorld-Section">
   <ToolBar />
-  </div>
+ 
   <div class="fade-section">
     <HelloWorld />
+  </div>
+   </div>
+    <div class="fade-section">
+    <AboutMe />
   </div>
   <div class="fade-section">
     <SkillSet />
@@ -21,6 +25,7 @@
 
 import ToolBar from './components/ToolBar.vue'
 import HelloWorld from './components/HelloWorld.vue'
+import AboutMe from './components/About.vue'
 import ContactInfo from './components/ContactInfo.vue'
 import ProjectDemos from './components/Projects.vue'
 import SkillSet from './components/SkillSet.vue'
@@ -29,6 +34,7 @@ export default {
   name: 'App',
   components: {
     HelloWorld,
+    AboutMe,
     ToolBar,
     SkillSet,
     ContactInfo,
