@@ -40,6 +40,10 @@
           <img alt="Django" src="../assets/icons/django.jpg" />
           <div class="name">Django</div>
         </div>
+          <div class="skill">
+          <img alt="Flask" src="../assets/icons/flaskicon.png" />
+          <div class="name">Flask</div>
+        </div>
         <div class="skill">
           <img alt="SpringBoot" src="../assets/icons/springboot.jpg" />
           <div class="name">SpringBoot</div>
