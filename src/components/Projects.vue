@@ -33,7 +33,7 @@ export default {
           repofront: 'https://github.com/JoeMuldowney/Virtual-Library-React-JSX-UI',
           repoback:  'https://github.com/JoeMuldowney/Virtual-Library-Auth-Profile-API'
          },
-        { title: 'Project 3', description: 'A brief description of this project.' },
+        
       ],
     }
   },
