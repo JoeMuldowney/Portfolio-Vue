@@ -20,7 +20,7 @@ export default {
   data() {
     return {
       projects: [
-        { title: 'CPS',
+        { title: 'DPS',
          description: 'A Property Data System that using an API for adding, deleting, and updating clients and properties.',
          link: 'https://csportfoliojm.com/frontend/',
          repofront: 'https://github.com/JoeMuldowney/Property-React-UI',
