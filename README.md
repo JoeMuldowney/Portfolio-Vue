@@ -1,24 +1,26 @@
-# Portfolio
+# Portfolio Homepage
+This is an application built with Vue to tell a little bit about me and showcase some of my skills and projects.  I also set up an email using Google's Gmail api in php.
 
-## Project setup
-```
-npm install
-```
+## Table of Contents
+- [Features](#features)
+- [Technologies Used](#technologies)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Features
 
-### Compiles and minifies for production
-```
-npm run build
-```
+1. **Homepage**
+   - Send emails with Google's Gmail api
+   - Utilized the Vue framework to personalize my frontend application
+           
+# **Technologies**
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. **Languages**
+   - PHP
+   - JavaScript
+   - HTML
+   - CSS
+2. **Frameworks**
+   - Vue
+3. **Tools**
+   - Docker
+   - Jenkins
+   - Git
