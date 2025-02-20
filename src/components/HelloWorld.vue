@@ -2,8 +2,8 @@
   <div id="home" class="horizontal-sections">
 
   <section class="hero">
-    <h1>Hi, I'm <span class="highlight">Joe Muldowney</span></h1>
-    <p>a Software Developer</p>    
+    <h2>Hi, I'm <span class="highlight">Joe Muldowney</span></h2>
+    <h2>a Software Developer</h2>    
   </section>
   
   
@@ -27,19 +27,16 @@ export default {
   flex-wrap: wrap;
 
 }
-h1 {
+h2 {
   font-size: 4.0rem; 
   margin-left: 150px;
 }
 
-section p {  
-  font-weight: bold; /* Bold to match <h1> */
-  margin-top: 0.67em; /* Matches typical <h1> top margin */
-  margin-bottom: 0.67em; /* Matches typical <h1> bottom margin */
-  display: block; /* Ensures it's displayed as a block element like <h1> */
-  font-size: 4.0rem; 
-  margin-left:300px;
+h2:nth-of-type(2) {
+    margin-left: 300px; /* Adjust this value to control the indentation */
 }
+
+
 .highlight {
  color: #00008B;
 
@@ -85,18 +82,14 @@ section p {
 }
 /* Mobile Styles */
 @media (max-width: 950px) {
-  h1 {
+  h2 {
    font-size: 2.0rem; /* Reduce font size */
    margin: 20px 0;
   }
-  section p {  
-  font-weight: bold; /* Bold to match <h1> */
-  margin-top: 0.67em; /* Matches typical <h1> top margin */
-  margin-bottom: 0.67em; /* Matches typical <h1> bottom margin */
-  display: block; /* Ensures it's displayed as a block element like <h1> */
-  font-size: 2.0rem; 
-  margin-left:20px;
+  h2:nth-of-type(2) {
+    margin-left: 60px; /* Adjust this value to control the indentation */
 }
+
   
 
 }

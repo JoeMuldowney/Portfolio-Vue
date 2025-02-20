@@ -5,6 +5,7 @@
       <div class="project" v-for="(project, index) in projects" :key="index">
         <h3>{{ project.title }}</h3>
         <p>{{ project.description }}</p>
+        <p>{{ project.used }}</p>
         <a :href="project.link" target="_blank">View Project</a><br><br>
         <a :href="project.repofront" target="_blank">Front-End GitHub Repo</a><br><br>
         <a :href="project.repoback" target="_blank">Back-End GitHub Repo</a>
@@ -21,14 +22,16 @@ export default {
     return {
       projects: [
         { title: 'DPS',
-         description: 'A Property Data System that using an API for adding, deleting, and updating clients and properties.',
+         description: 'A property management web solution for desktops. Adds, updates, deletes, and runs reports on clients and locations.',
+         used: 'Java, Spring Boot, Maven, EC2, RDS, Postgres, React, Docker, Jenkins.',
          link: 'https://csportfoliojm.com/frontend/',
          repofront: 'https://github.com/JoeMuldowney/Property-React-UI',
          repoback: 'https://github.com/JoeMuldowney/Property-Spring-Boot-API',
         },
 
-        { title: 'Endless Books', 
-          description: 'An ecommerce store utlizing microservices for store, cart, and checkout functionality.',
+        { title: 'Book Smith', 
+          description: 'An online ordering system for books. User accounts for profiles and payment options. Ability to customize book type and quantity.',
+          used: 'Python, Go, Django, Postgres, Jenkins, Docker, React, EC2, RDS.',
           link: 'https://csjoeportfolio.com/',
           repofront: 'https://github.com/JoeMuldowney/Virtual-Library-React-JSX-UI',
           repoback:  'https://github.com/JoeMuldowney/Virtual-Library-Auth-Profile-API'
@@ -61,7 +64,7 @@ h1{
   background: #f4f4f4;
   margin: 1rem;
   padding: 1rem;
-  width: 300px;
+  width: 600px;
   text-align: center;
 }
 
