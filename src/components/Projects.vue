@@ -8,7 +8,16 @@
         <p>{{ project.used }}</p>
         <a :href="project.link" target="_blank">View Project</a><br><br>
         <a :href="project.repofront" target="_blank">Front-End GitHub Repo</a><br><br>
-        <a :href="project.repoback" target="_blank">Back-End GitHub Repo</a>
+        <a :href="project.repoback" target="_blank">Back-End GitHub Repo</a>      
+        
+      </div>
+      <div class="project" v-for="(project, index) in ai_projects" :key="index">
+        <h3>{{ project.title }}</h3>
+        <p>{{ project.description }}</p>
+        <p>{{ project.used }}</p>
+        <a :href="project.link" target="_blank">View Project</a><br><br>
+        <a :href="project.video" target="_blank">View Presentation</a><br><br>
+        <a :href="project.repoback" target="_blank">Back-End GitHub Repo</a>      
         
       </div>
     </div>
@@ -35,9 +44,19 @@ export default {
           link: 'https://csjoeportfolio.com/',
           repofront: 'https://github.com/JoeMuldowney/Virtual-Library-React-JSX-UI',
           repoback:  'https://github.com/JoeMuldowney/Virtual-Library-Auth-Profile-API'
-         },
+         }
         
       ],
+      ai_projects: [
+        { title: 'Paraphraser', 
+          description: 'A fine-tuned BART model on a CNN daily news dataset.  Displays metric results for research and showcases the model. ',
+          used: 'Python, Flask, Jenkins, Docker, EC2 ',
+          link: 'https://csjoeportfolio.com/',
+          repoback:  'https://github.com/JoeMuldowney/AI_Paraphraser',
+          video: 'https://www.youtube.com/watch?v=GktdzK3PmxA'
+         }
+        
+      ]
     }
   },
 }

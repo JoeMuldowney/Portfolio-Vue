@@ -84,6 +84,10 @@
           <img alt="Linux" src="../assets/icons/linuxicon.png" />
           <div class="name">Linux</div>
         </div>
+        <div class="skill">
+          <img alt="hface" src="../assets/icons/hface.png" />
+          <div class="name">Hugging Face</div>
+        </div>
       </div>
 
     </div>

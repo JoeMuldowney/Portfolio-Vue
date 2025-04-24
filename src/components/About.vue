@@ -8,11 +8,11 @@
   During this apprenticeship, I also learned how to code by creating web forms to replace paper forms and inserting the data directly into a database.
 </p>  
     <p>
-    I am focused on mastering C++ and Python, which are at the heart of the future of software development, especially with the rise of AI.
-    In addition to my academic studies, I work on personal projects to deepen my understanding of artificial intelligence.
-    I clean datasets and build machine-learning models on sentiment analysis and text summarization.
-    These side projects help me stay hands-on with AI technologies and continue to improve my skills outside the classroom.
-    </p>
+      I’m currently focused on mastering C++ and Python, two languages at the core of modern software development, especially with the rise of AI.
+  In addition to my academic work, I build side projects that explore artificial intelligence.
+  I clean datasets and fine-tune machine learning models to stay hands-on with real-world applications.
+  These projects not only sharpen my technical skills but also deepen my practical understanding of AI architecture.
+  </p>
 
   </section>
 
