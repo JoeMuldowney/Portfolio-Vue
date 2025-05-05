@@ -50,8 +50,8 @@ export default {
       ai_projects: [
         { title: 'Paraphraser', 
           description: 'A fine-tuned BART model on a CNN daily news dataset.  Displays metric results for research and showcases the model. ',
-          used: 'Python, Flask, Jenkins, Docker, EC2 ',
-          link: 'https://csjoeportfolio.com/',
+          used: 'Python, Hugging Face, Flask, Jenkins, Docker, EC2, Jupyter Notebook ',
+          link: 'https://www.bartaidemo.com/',
           repoback:  'https://github.com/JoeMuldowney/AI_Paraphraser',
           video: 'https://www.youtube.com/watch?v=GktdzK3PmxA'
          }
