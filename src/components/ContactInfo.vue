@@ -1,7 +1,7 @@
 <template>
   <section id="contact" class="contact">
     <h2>Contact Information</h2>
-    <p>If you would like to discuss a project or just say hi, reach out via the form below or connect with me on LinkedIn.</p>
+    <p>If you're interested in discussing a potential opportunity or collaboration, please use the form below or connect with me on LinkedIn.</p>
     <form @submit.prevent="sendMessage">
       <input type="text" v-model="name" placeholder="Your Name" required>
       <input type="email" v-model="email" placeholder="Your Email" required>
