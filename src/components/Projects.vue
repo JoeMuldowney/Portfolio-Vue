@@ -31,16 +31,16 @@ export default {
     return {
       projects: [
         { title: 'DPS',
-         description: 'A property management web solution for desktops. Adds, updates, deletes, and runs reports on clients and locations.',
-         used: 'Java, Spring Boot, Maven, EC2, RDS, Postgres, React, Docker, Jenkins.',
+         description: 'Designed to streamline property data management and enable precise updates for rental and sale pricing.',
+         used: 'Java, Spring Boot, Maven, EC2, RDS, Postgres, React, Docker, Jenkins, Git',
          link: 'https://csportfoliojm.com/frontend/',
          repofront: 'https://github.com/JoeMuldowney/Property-React-UI',
          repoback: 'https://github.com/JoeMuldowney/Property-Spring-Boot-API',
         },
 
         { title: 'Book Smith', 
-          description: 'An online ordering system for books. User accounts for profiles and payment options. Ability to customize book type and quantity.',
-          used: 'Python, Go, Django, Postgres, Jenkins, Docker, React, EC2, RDS.',
+          description: 'Designed as a platform for buying and renting books with integrated social features for user interaction, creating a book-focused social media experience.',
+          used: 'Python, Go, Django, Postgres, Jenkins, Docker, React, EC2, RDS, Git',
           link: 'https://csjoeportfolio.com/',
           repofront: 'https://github.com/JoeMuldowney/Virtual-Library-React-JSX-UI',
           repoback:  'https://github.com/JoeMuldowney/Virtual-Library-Auth-Profile-API'
@@ -49,8 +49,8 @@ export default {
       ],
       ai_projects: [
         { title: 'Paraphraser', 
-          description: 'A fine-tuned BART model on a CNN daily news dataset.  Displays metric results for research and showcases the model. ',
-          used: 'Python, Hugging Face, Flask, Jenkins, Docker, EC2, Jupyter Notebook ',
+          description: 'Conducted a research project on AI summarization by fine-tuning the BART-base model on the CNN Daily Mail dataset and evaluating performance using standard NLP metrics on test samples.',
+          used: 'Python, Hugging Face, Flask, Jenkins, Docker, EC2, Jupyter Notebook, Git',
           link: 'https://www.bartaidemo.com/',
           repoback:  'https://github.com/JoeMuldowney/AI_Paraphraser',
           video: 'https://www.youtube.com/watch?v=GktdzK3PmxA'
