@@ -61,7 +61,7 @@ export default {
         { title: 'Paraphraser', 
           description: 'Conducted a research project on AI summarization by fine-tuning the BART-base model on the CNN Daily Mail dataset and evaluating performance using standard NLP metrics on test samples.',
           used: 'Python, Hugging Face, Flask, Jenkins, Docker, EC2, Jupyter Notebook, Git',
-          link: 'https://bartdemo.com/',
+          link: 'https://bartaidemo.com/',
           repoback:  'https://github.com/JoeMuldowney/AI_Paraphraser',
           video: 'https://www.youtube.com/watch?v=GktdzK3PmxA'
          }
