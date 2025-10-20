@@ -2,10 +2,8 @@
   <section id="about" class="aboutsection">
     <h1>About Me</h1>
 <p>
-My journey into software development started in a trade school, where I was originally studying automotive technology. From a young age, I was fascinated by how things work and often took things apart to understand their mechanics. This curiosity led me to an automotive apprenticeship at a local gas station, where I worked both in the shop and at the front desk while attending school. It was there that I first encountered the intersection of technology and problem-solving. I often troubleshot technical issues with the computer and created web forms to replace paper processes, directly inserting data into a database. This experience sparked my passion for software development and set me on the path I’m pursuing today.</p>  
-    <p>
-Building on this foundation, I am currently focused on advancing my expertise in object-oriented programming, web development, DevOps, cloud computing, and artificial intelligence. My goal is to continuously grow as a software professional by expanding my technical skill set and staying at the forefront of emerging technologies. I maintain a hands-on approach through a variety of projects, both cloud-based and on-premises. These projects involve software applications, AI model development, and pipeline implementation. These experiences strengthen my proficiency in software architecture and ensure I remain current with industry best practices and innovations.  </p>
-
+I’m a software developer with a unique background in automotive technology and a passion for problem-solving. My journey began in trade school, where I built web forms and database solutions that replaced paper processes at my apprenticeship job. That hands-on experience led me into software development, where I now specialize in object-oriented programming, web applications, DevOps, cloud computing, and AI. Through building cloud-based and on-premises projects, I’ve strengthened my skills in software architecture and pipeline implementation, and I continue to grow by staying at the forefront of emerging technologies.
+  </p>
   </section>
 
 </template>
