@@ -3,6 +3,7 @@
     <h1>Skills</h1>
     <div class="container">
       <!-- Language Section -->
+      <h3>Languages</h3>
       <div class="language">
         <div class="skill">
           <img alt="C++" src="../assets/icons/c++icon.jpg" />
@@ -35,6 +36,7 @@
       </div>
 
       <!-- Framework Section -->
+      <h3>Frameworks</h3>
       <div class="framework">
         <div class="skill">
           <img alt="Django" src="../assets/icons/django.jpg" />
@@ -59,6 +61,7 @@
       </div>
 
       <!-- Other Section -->
+      <h3>Tools</h3>
       <div class="other">
         <div class="skill">
           <img alt="Docker" src="../assets/icons/dockericon.png" />
@@ -67,14 +70,6 @@
         <div class="skill">
           <img alt="Jenkins" src="../assets/icons/jenkins.png" />
           <div class="name">Jenkins</div>
-        </div>
-        <div class="skill">
-          <img alt="RDS" src="../assets/icons/rdsicon.png" />
-          <div class="name">RDS</div>
-        </div>
-        <div class="skill">
-          <img alt="EC2" src="../assets/icons/ec2icon.png" />
-          <div class="name">EC2</div>
         </div>
         <div class="skill">
           <img alt="Git" src="../assets/icons/giticon.png" />
@@ -89,6 +84,20 @@
           <div class="name">Hugging Face</div>
         </div>
       </div>
+<!-- Certifications Section -->
+<h3>Certifications</h3>
+<div class="certs">
+  <div class="cert-container">
+    <div class="skill">
+      <img alt="AWS" src="../assets/icons/aws1.jpg" />
+      <div class="name">Developer</div>
+    </div>
+    <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/a6ad93fc92314a4685c59708f85e4759" target="_blank">
+      Link to certification
+    </a>
+  </div>
+</div>
+
 
     </div>
   </section>
@@ -130,6 +139,28 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+.certs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px; /* space between certs */
+}
+
+.cert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers the link under the image */
+}
+
+.cert-container a {
+  margin-top: 8px; /* spacing between image and link */
+  text-decoration: none;
+  color: #007bff;
+}
+
+.cert-container a:hover {
+  text-decoration: underline;
 }
 .skill {
   position: relative;

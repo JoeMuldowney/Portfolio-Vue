@@ -2,17 +2,9 @@
   <section id="about" class="aboutsection">
     <h1>About Me</h1>
 <p>
-  My journey into software development started in a trade school, where I was learning to fix cars. As a kid, I was always fascinated by how things work. I enjoyed taking things apart to either fix them or understand their mechanics.
-  This curiosity eventually led me to an automotive apprenticeship at a local gas station, where I worked in the shop and at the front desk while attending trade school.
-  That is when I first encountered the intersection of technology and problem-solving, often troubleshooting technical issues with the computer system and network.
-  During this apprenticeship, I also learned how to code by creating web forms to replace paper forms and inserting the data directly into a database.
-</p>  
+My journey into software development started in a trade school, where I was originally studying automotive technology. From a young age, I was fascinated by how things work and often took things apart to understand their mechanics. This curiosity led me to an automotive apprenticeship at a local gas station, where I worked both in the shop and at the front desk while attending school. It was there that I first encountered the intersection of technology and problem-solving. I often troubleshot technical issues with the computer and created web forms to replace paper processes, directly inserting data into a database. This experience sparked my passion for software development and set me on the path I’m pursuing today.</p>  
     <p>
-      I’m currently focused on mastering C++ and Python, two languages at the core of modern software development, especially with the rise of AI.
-  In addition to my academic work, I build side projects that explore artificial intelligence.
-  I clean datasets and fine-tune machine learning models to stay hands-on with real-world applications.
-  These projects not only sharpen my technical skills but also deepen my practical understanding of AI architecture.
-  </p>
+Building on this foundation, I am currently focused on advancing my expertise in object-oriented programming, web development, DevOps, cloud computing, and artificial intelligence. My goal is to continuously grow as a software professional by expanding my technical skill set and staying at the forefront of emerging technologies. I maintain a hands-on approach through a variety of projects, both cloud-based and on-premises. These projects involve software applications, AI model development, and pipeline implementation. These experiences strengthen my proficiency in software architecture and ensure I remain current with industry best practices and innovations.  </p>
 
   </section>
 
